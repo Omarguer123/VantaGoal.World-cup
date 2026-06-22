@@ -1,0 +1,8 @@
+{
+  "has_index": true,
+  "has_vercel_api": true,
+  "has_vercel_json": true,
+  "has_package_json": true,
+  "frontend_uses_vercel_api": true,
+  "no_real_key_in_files": true
+}

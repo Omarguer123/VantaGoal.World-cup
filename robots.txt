@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /seo-audit.html
+Sitemap: https://your-domain.com/sitemap.xml

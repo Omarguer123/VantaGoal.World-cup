@@ -1,0 +1,7 @@
+{
+  "vercel_json_has_no_functions_block": true,
+  "api_file_exists": true,
+  "api_uses_req_res": true,
+  "index_uses_api_football": true,
+  "secret_not_in_files": true
+}

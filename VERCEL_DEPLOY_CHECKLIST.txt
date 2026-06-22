@@ -1,0 +1,21 @@
+VERCEL FIXED DEPLOY CHECKLIST
+
+1. Delete the failed Vercel project OR redeploy after pushing this fixed version.
+2. In GitHub, make sure the root has:
+   index.html
+   api/football.js
+   vercel.json
+   package.json
+3. Do not put the website inside an extra folder.
+4. Import the GitHub repo in Vercel.
+5. Framework preset: Other.
+6. Build command: empty.
+7. Output directory: empty.
+8. Add environment variable:
+   API_FOOTBALL_KEY = your real API key
+9. Deploy.
+10. Test:
+   /api/football?type=fixtures&date=2026-06-22
+
+The old error was caused by the functions pattern in vercel.json.
+This fixed version removes that pattern.

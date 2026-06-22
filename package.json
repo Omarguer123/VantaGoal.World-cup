@@ -1,0 +1,13 @@
+{
+  "name": "vantagoal-vercel-ready",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VantaGoal World Cup dashboard ready for Vercel deployment with serverless API proxy.",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

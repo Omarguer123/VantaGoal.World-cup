@@ -1,0 +1,35 @@
+{
+  "rewrites": [
+    {
+      "source": "/schedule-today",
+      "destination": "/schedule-today.html"
+    },
+    {
+      "source": "/watch-guide",
+      "destination": "/watch-guide.html"
+    },
+    {
+      "source": "/live-scores",
+      "destination": "/live-scores.html"
+    },
+    {
+      "source": "/groups-standings",
+      "destination": "/groups-standings.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ]
+}
