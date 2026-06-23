@@ -52,3 +52,21 @@ Open:
 If the API key is correct, you should see JSON from API-Football.
 
 Then open the homepage.
+
+
+## AdSense verification added
+
+The AdSense code snippet was inserted inside the `<head>` section of the public HTML pages.
+
+Inserted into:
+- index.html
+- live-scores.html
+- groups-standings.html
+- schedule-today.html
+- watch-guide.html
+
+Also added:
+- `ads.txt`
+
+After uploading to GitHub and redeploying on Vercel, return to AdSense and click:
+`I've placed the code` → `Verify`

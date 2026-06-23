@@ -1,0 +1,17 @@
+{
+  "source_folder": "/mnt/data/vantagoal_vercel_fixed_dashboard",
+  "adsense_client": "ca-pub-5462135978012202",
+  "inserted_files": [
+    "index.html",
+    "live-scores.html",
+    "groups-standings.html",
+    "schedule-today.html",
+    "watch-guide.html"
+  ],
+  "skipped_files": [
+    "seo-audit.html"
+  ],
+  "added_ads_txt": true,
+  "ready_for": "Vercel upload and AdSense verification",
+  "note": "API key is not included in public files. Add API_FOOTBALL_KEY in Vercel environment variables."
+}
